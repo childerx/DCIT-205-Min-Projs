@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <div class="create-blog content">
+        <form action="/students" method="post">
+            <label style="text-align: center; word-spacing: 10px; letter-spacing: 10px;"><h2>Register New Student</h2></label>
+            <label for="name"><b>Student Name:</b></label>
+            <input type="text" id="name" name="name" required>
+            <label for="program"><b>Program:</b></label>
+            <input type="text" id="program" name="program" required>
+            <label for="date_of_birth"><b>Date of Birth:</b></label>
+            <input type="date" name="date_of_birth" id="date_of_birth">
+            <label for="body"><b>Sex:</b></label>
+            <input type="text" id="body" name="body" required>    
+            <button>submit</button>
+        </form>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

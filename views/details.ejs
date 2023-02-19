@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <div class="details content">
+        <h2><%= student.name %></h2>
+        <div class="content bod">
+            <span>Student ID:</span><p><%= student._id %></p><br>
+            <span>Program of Study:</span><p><%= student.program %></p><br>
+            <span>Sex:</span><p><%= student.body %></p><br>
+            <span>Date of Birth:</span><p><%= student.date_of_birth %></p><br>
+            <span>Admitted At:</span><p><%= student.createdAt %></p><br>
+            <span>Last Modified Details At:</span><p><%= student.updatedAt %></p>
+
+            </div>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
