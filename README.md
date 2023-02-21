@@ -1,5 +1,5 @@
 <h1 align="center">School Management System</h1>
-This is mainly a backend program designed with NodeJs. The two main functionalities that could be found in this 
+This is mainly a backend program designed with NodeJs. The two main functionalitie in this 
 project are:
 <ul>
   <li>Getting students details by ID</li>
