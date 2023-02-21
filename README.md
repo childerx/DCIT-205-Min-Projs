@@ -35,3 +35,8 @@ and saves it to the database(The <kbd>student.save()</kbd> is used for this acti
   <li><kbd>morgan</li>
   <li><kbd>NodeMon</li>
 </ul>
+
+<h3>Below is an interface of the home page:</h3>
+
+![Screenshot from 2023-02-20 17-38-51](https://user-images.githubusercontent.com/102569865/220351597-98ec932b-40a1-4be9-8c8f-a7b015e44e60.png)
+
